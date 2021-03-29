@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+   font-family:  'Open Sans', sans-serif;
+    font-size: 1.1em;
+    padding: 0px;
+    margin: 0px;
+ }
+ body{
+     background-color: rgb(2, 2, 34);
+     font: 100;
+     color: cornsilk;
+ }
+ header{
+     padding: 2px;
+     
+ }
+header p {
+    color: rgba(202, 202, 195, 0.384);
+    font-size: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+ 
+ main{
+     background-color: rgb(255, 255, 255);
+     color: grey;
+     padding: 1%;
+     margin:2%;
+     border: solid;
+     border-color: rgb(255, 255, 255);
+     border-radius: 15px;
+    }
+ footer{
+     text-align: right;
+ }   
