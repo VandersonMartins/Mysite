@@ -41,7 +41,7 @@
      padding: 1%;
  }
 header p {
-    color: rgba(252, 252, 183, 0.815);
+    color: rgba(240, 204, 42);
     font-size: 1.4em;
     text-align: center;
     font-style: italic;
@@ -65,6 +65,7 @@ h2{
     text-align: center;
     font-size: 1.5em;
 }
+
 p{
     margin: 10px;
 }
@@ -86,12 +87,20 @@ p{
     }
     ul {
         padding: 15px;
+        
+        
        
              
     }
     li{
         margin-left: 20px;
         
+    }
+    .esq{
+        margin: 10px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 1.5em;
     }
     
  footer{
