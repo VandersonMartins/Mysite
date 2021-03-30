@@ -103,6 +103,15 @@ p{
         font-size: 1.5em;
     }
     
- footer{
+
+    footer{
      text-align: right;
- }   
+    }
+    
+    .botao{
+        float: right;
+        width: 30px;
+        margin-top: -2%;
+        margin-right: -20px;
+        
+    }
