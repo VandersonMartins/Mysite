@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 *{
    font-family:  'Open Sans', sans-serif;
-    font-size: 1.1em;
+    font-size: 1em;
     padding: 0px;
     margin: 0px;
  }
@@ -11,26 +11,98 @@
      color: cornsilk;
  }
  header{
-     padding: 2px;
+     padding: 2%;
      
  }
+ .foto{
+     max-width: 300px;
+ }    
+  
+ 
+  .bio, .bio h1, .bio h2, .bio ul {
+     text-align: center;
+     font-size: 1.2em;
+     padding: 1.1%;
+     list-style: none;
+     margin-bottom: 2%;
+ }
+
+ .steve {
+     
+     text-align: right;
+     font-style: italic;
+   
+ }
+
+ img{
+     max-width: 180px;
+     float: left;
+     border-radius:10px;
+     padding: 1%;
+ }
 header p {
-    color: rgba(202, 202, 195, 0.384);
-    font-size: 2rem;
+    color: rgba(240, 204, 42);
+    font-size: 1.4em;
     text-align: center;
     font-style: italic;
+    margin: 10px;
+    text-indent: 50px;
+        
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+h3, h4 {
+    margin: 10px;
+    font-weight: bold;
+    
+}
+h2{
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p{
+    margin: 10px;
 }
 
  
  main{
      background-color: rgb(255, 255, 255);
-     color: grey;
+     color:rgb(2, 2, 34);
      padding: 1%;
      margin:2%;
      border: solid;
      border-color: rgb(255, 255, 255);
-     border-radius: 15px;
+     border-radius: 10px;
     }
+    
+    article{
+        text-align: left;
+        font-size: 1.3em;
+    }
+    ul {
+        padding: 15px;
+        
+        
+       
+             
+    }
+    li{
+        margin-left: 20px;
+        
+    }
+    .esq{
+        margin: 10px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 1.5em;
+    }
+    
  footer{
      text-align: right;
  }   
