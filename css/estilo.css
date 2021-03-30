@@ -11,21 +11,42 @@
      color: cornsilk;
  }
  header{
-     padding: 2px;
+     padding: 2%;
      
  }
- header .lado{
+ .foto{
+     max-width: 300px;
+ }    
+ .lado p {
+ 
+    
+     
+ }   
+    
+ header .lado ul{
      list-style: none;
-     display: block;
+        
+     
+ }
+ .steve {
+     
+     text-align: right;
+ }
+
+ img{
+     max-width: 180px;
      float: left;
-     width: 35%;
+     border-radius:5%;
+     padding: 1%;
  }
 header p {
     color: rgba(238, 238, 235, 0.384);
-    font-size: 2em;
+    font-size: 1.5em;
     text-align: center;
     font-style: italic;
-    
+    margin: 10px;
+    text-indent: 50px;
+        
 }
 header a {
     text-decoration: none;
