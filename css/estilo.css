@@ -40,6 +40,10 @@
      border-radius:10px;
      padding: 1%;
  }
+ img.dir{
+    float: right;
+    margin-right: 15%;
+}
 header p {
     color: rgba(240, 204, 42);
     font-size: 1.4em;
