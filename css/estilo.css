@@ -40,6 +40,11 @@
      border-radius:10px;
      padding: 1%;
  }
+ img.dir{
+    float: right;
+    margin-right: 15%;
+    
+}
 header p {
     color: rgba(240, 204, 42);
     font-size: 1.4em;
@@ -102,13 +107,16 @@ p{
         text-align: left;
         font-size: 1.5em;
     }
-    .dir{
-        margin-right: 10% ;
-        float: right;
-        text-align: right;
-        font-size: 1.5em;
-    }
+    
 
- footer{
+    footer{
      text-align: right;
- }   
+    }
+    
+    .botao{
+        float: right;
+        width: 30px;
+        margin-top: -2%;
+        margin-right: -20px;
+        
+    }
