@@ -90,6 +90,10 @@ p{
         text-align: left;
         font-size: 1.3em;
     }
+    article h2{
+
+        color:rgba(5, 5, 71, 0.658);
+    }
     ul {
         padding: 15px;
         
