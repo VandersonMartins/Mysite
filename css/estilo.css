@@ -6,7 +6,7 @@
     margin: 0px;
  }
  body{
-     background-color: rgb(2, 2, 34);
+     background-color: rgb(0, 51, 102);
      font: 100;
      color: cornsilk;
  }
@@ -15,30 +15,38 @@
      
  }
  .foto{
-     max-width: 300px;
+     max-width: 180px;
+     position: absolute;
+     padding: 0,5%;
+     margin: 0,5%;
+     z-index: 1;
+     border-radius:20% 0% 20% 0%;
  }    
   
  
-  .bio, .bio h1, .bio h2, .bio ul {
+  .bio, .bio h2, .bio ul {
      text-align: center;
-     font-size: 1.2em;
-     padding: 1.1%;
+     font-size: 1em;
+     
      list-style: none;
-     margin-bottom: 2%;
+     margin-bottom: 3%;
+ }
+ .bio h1{
+     font-size:1.8em ;
  }
 
  .steve {
      
      text-align: right;
      font-style: italic;
+     padding: 1%;
    
  }
 
  img{
      max-width: 180px;
      float: left;
-     border-radius:10px;
-     padding: 1%;
+     
  }
  img.dir{
     float: right;
@@ -120,12 +128,14 @@ p{
 
     footer{
      text-align: right;
+     color: rgb(252, 248, 4);
+     
     }
     
     .botao{
         float: right;
-        width: 30px;
+        width: 40px;
         margin-top: -2%;
-        margin-right: -20px;
+        margin-right: -10px;
         
     }
