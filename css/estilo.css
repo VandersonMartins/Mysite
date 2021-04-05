@@ -4,99 +4,78 @@
     font-size: 1em;
     padding: 0px;
     margin: 0px;
- }
- body{
-     background-color: rgb(0, 51, 102);
-     font: 100;
-     color: cornsilk;
- }
- header{
-     padding: 2%;
-     
- }
- .foto{
-     max-width: 180px;
-     position: absolute;
-     padding: 0,5%;
-     margin: 0,5%;
-     z-index: 1;
-     border-radius:20% 0% 20% 0%;
- }    
-  
- 
-  .bio, .bio h2, .bio ul {
-     text-align: center;
-     font-size: 1em;
-     
-     list-style: none;
-     margin-bottom: 3%;
- }
- .bio h1{
-     font-size:1.8em ;
- }
-
- .steve {
-     
-     text-align: right;
-     font-style: italic;
-     padding: 1%;
-   
- }
-
- img{
-     max-width: 180px;
-     float: left;
-     
- }
- img.dir{
-    float: right;
-    margin-right: 15%;
-    
-}
-header p {
-    color: rgba(240, 204, 42);
-    font-size: 1.4em;
-    text-align: center;
-    font-style: italic;
-    margin: 10px;
-    text-indent: 50px;
-        
-}
-header a {
-    text-decoration: none;
-    color: white;
-}
-
-h3, h4 {
-    margin: 10px;
-    font-weight: bold;
-    
-}
-h2{
-    margin: 10px;
-    font-weight: bold;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-p{
-    margin: 10px;
-}
-
- 
- main{
-     background-color: rgb(255, 255, 255);
-     color:rgb(2, 2, 34);
-     padding: 1%;
-     margin:2%;
-     border: solid;
-     border-color: rgb(255, 255, 255);
-     border-radius: 10px;
     }
-    
+    body{
+        background-color: rgb(0, 51, 102);
+        font-style: 100;
+        color: cornsilk;
+        }
+    header{
+        padding: 2%;
+        }
+    .foto{
+        max-width: 180px;
+        position: absolute;
+        padding: 0,5%;
+        margin: 0,5%;
+        z-index: 1;
+        border-radius:20% 0% 20% 0%;
+    }    
+    .bio, .bio h2, .bio ul {
+        text-align: center;
+        font-size: 1em;
+        
+        list-style: none;
+        margin-bottom: 3%;
+    }
+    .bio h1{
+        font-size:1.8em ;
+    }
+    .steve {
+        text-align: right;
+        font-style: italic;
+        padding: 1%;
+
+    }
+    header p {
+        color: rgba(240, 204, 42);
+        font-size: 1.4em;
+        text-align: center;
+        font-style: italic;
+        margin: 10px;
+        text-indent: 50px;
+    }
+    header a {
+        text-decoration: none;
+        color: white;
+    }
+    h3, h4 {
+        margin: 10px;
+        font-weight: bold;
+    }
+    h2{
+        margin: 10px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    p{
+        margin: 10px;
+    }
+    main{
+        background-color: rgb(255, 255, 255);
+        color:rgb(2, 2, 34);
+        padding: 1%;
+        margin:2%;
+        border: solid;
+        border-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
     article{
         text-align: left;
         font-size: 1.3em;
+            
     }
     article h2{
 
@@ -104,14 +83,14 @@ p{
     }
     ul {
         padding: 15px;
+            
+            
         
-        
-       
-             
+                
     }
     li{
         margin-left: 20px;
-        
+            
     }
     .esq{
         margin: 10px;
@@ -127,15 +106,21 @@ p{
     }
 
     footer{
-     text-align: right;
-     color: rgb(252, 248, 4);
-     
+        text-align: right;
+        color: rgb(252, 248, 4);
+        
     }
-    
+    .creditos, a{
+        text-decoration: none;
+        color: rgba(219, 219, 215, 0.445);
+    }
     .botao{
         float: right;
         width: 40px;
         margin-top: -2%;
-        margin-right: -10px;
-        
-    }
+        margin-right: 10px;
+        position: sticky;
+        top: 0;
+        opacity: 1.0;
+}
+
