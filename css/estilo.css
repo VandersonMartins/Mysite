@@ -6,12 +6,15 @@
     margin: 0px;
     }
     body{
-        background-color: rgb(0, 51, 102);
+        background-color: #43196a;
         font-style: 100;
         color: cornsilk;
         }
     header{
         padding: 2%;
+        
+        background-size:  cover;
+        background-repeat: no-repeat;
         }
     .foto{
         max-width: 180px;
@@ -70,11 +73,16 @@
         border: solid;
         border-color: rgb(255, 255, 255);
         border-radius: 10px;
+        background-image: url(../img/fundoG.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        text-shadow: 2px 2px #ffffff
     }
 
     article{
         text-align: left;
         font-size: 1.3em;
+        
             
     }
     article h2{
@@ -102,6 +110,7 @@
         float: right;
         font-size: 1.5em;
         margin-right: 5%;
+        color: #43196a;
 
     }
 
@@ -122,5 +131,8 @@
         position: sticky;
         top: 0;
         opacity: 1.0;
-}
+    }
+    
+       
+   
 
