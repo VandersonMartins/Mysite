@@ -133,15 +133,28 @@
         color: rgba(219, 219, 215, 0.445);
     }
     .botao{
-        float: right;
+        position: sticky;
+    }
+    .menu {
         width: 40px;
-        margin-top: -2%;
-        margin-right: 10px;
+        padding: 1px;
+        margin: 1px;
+        float:right;
+        margin-top: 0%;
+        position: -webkit-sticky;
         position: sticky;
         top: 0;
-        opacity: 1.0;
+        right: 5;
+        opacity: .5;
+       
+               
     }
-    
+    .menu:hover {
+        opacity: 1;
+        right: 8;
+        
+    }
+
     @media screen and (max-width: 280px){
         .foto {
             max-width: 100px;
@@ -172,6 +185,15 @@
       
     }   
     @media screen and (max-width: 360px ){
+        .menu img{
+            max-width: 100%;
+            opacity: 1;
+                       
+        }
+        .menu{
+            max-width: 30px;
+            margin-right: 10px;
+        }
         .foto {
             max-width: 100px;
             position: static;
@@ -292,4 +314,4 @@
             font-size: 0.8em;
             margin: auto;
              }
-    }
+            }
