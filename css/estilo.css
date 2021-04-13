@@ -90,13 +90,17 @@
         border: solid;
         border-color: rgb(255, 255, 255);
         border-radius: 10px;
-        background-image: url(../img/fundoG.png);
-        background-size: contain;
+        background-image: url(../img/fundoG.png) ;
+        background-size:contain;
         background-repeat: no-repeat;
         text-shadow: 2px 2px #ffffff
         
     }
-
+    .ativ{
+        text-align: justify;
+        margin: 15px 5px 5px 5px;
+        background-color: rgba(219, 217, 217, 0.712);
+     }
     article{
         text-align: left;
         font-size: 1.3em;
@@ -358,6 +362,7 @@
             margin-top: 18%;
 
     }
+    
 }
     @media screen and (max-width:354px){
         #barr{
