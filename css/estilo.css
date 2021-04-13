@@ -209,6 +209,10 @@
         .creditos{
             font-size: .6em;
         }
+        #barr{
+            font-size: 1.5em;
+             position: relative;
+       }
       
     }   
     @media screen and (max-width: 360px ){
