@@ -162,8 +162,7 @@
     }
     .menu:hover {
         opacity: 1;
-        right: 8;
-        
+                
     }
     #barr{
         font-size: 1.7em;
@@ -174,7 +173,7 @@
     form{
         background-color: rgba(60, 240, 156, 0.082);
         padding: 2px;
-        margin:2%;
+        margin: 2%;
         
     }
 
