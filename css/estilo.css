@@ -7,28 +7,35 @@
     margin: 0px;
     }
     body{
-        background-color: #43196a;
+        background-color: #d4b1f55b;
         color: #43196a;
         display: block;
         }
     header{
-        margin:0% 2% 2% 2%;
+        margin:2% 2% 2% 2%;
         padding: 0;
         background-image: url(../img/header.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        border-radius: 0px 10px 10px 10px ;
+        border-radius: 10px 10px 10px 10px ;
         
         }
     .foto{
         max-width: 180px;
         position: absolute;
-        margin-left: 2%;
+        margin-top: 1%;
+        margin-left: 1%;
         padding: 0,5%;
-        z-index: 2;
+        z-index: 1;
         border-radius:10px;
         align-items: left;
-    }    
+    }  
+    
+    .foto img{
+        
+        border-style:ridge;
+        border-color: #d4b1f55b;
+    }
     .bio, .bio h2, .bio ul {
         text-align: right;
         font-size: 1em;
@@ -87,6 +94,7 @@
         background-size: contain;
         background-repeat: no-repeat;
         text-shadow: 2px 2px #ffffff
+        
     }
 
     article{
@@ -126,12 +134,12 @@
 
     footer{
         text-align: right;
-        color: rgb(252, 248, 4);
+        color:#1d0633;
         
     }
     .creditos, a{
         text-decoration: none;
-        color: rgba(219, 219, 215, 0.445);
+        color:#43196a;
     }
     .botao{
         position: sticky;
@@ -153,6 +161,10 @@
         right: 8;
         
     }
+    #barr{
+        font-size: 1.7em;
+        position: relative;
+    }  
 
     @media screen and (max-width: 280px){
         .foto img {
@@ -220,10 +232,10 @@
              font-size: 1.5em;
               }
 
-         #barr{
-             font-size: 23pt;
-             margin-left: 1px;
-         }     
+        #barr{
+                font-size: 1.5em;
+                position: relative;
+            }    
         .esq{
             font-size: 0.8em;
             margin: 10px 5px 5px 5px;
@@ -275,7 +287,37 @@
          .creditos{
             font-size: .6em;
         }
-
+        #barr{
+            font-size: 1.5em;
+             position: relative;
+       }
+    }
+    
+    @media screen and (max-width: 321px ){    
+        #barr{
+            font-size: 1.6em;
+            position: relative;
+        }   
+    }
+    @media screen and (max-width: 414px ){    
+        #barr{
+            font-size: 1.6em;
+            position: relative;
+        }   
+    }
+    
+    @media screen and (max-width: 375px ){    
+        #barr{
+            font-size: 1.5em;
+             position: relative;
+       }
+    }
+    @media screen and (max-width: 540px ){    
+        #barr{
+            font-size: 1.2em;
+            position: relative;
+            margin-bottom: -3px;
+        }   
     }
     @media screen and (max-width: 640px ){
 
@@ -316,5 +358,12 @@
             margin-top: 18%;
 
     }
-} 
+}
+    @media screen and (max-width:354px){
+        #barr{
+            font-size: .8rem;
+        }
+    }
+ 
+
     
