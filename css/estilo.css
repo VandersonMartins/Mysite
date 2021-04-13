@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+   
 *{
    font-family:  'Open Sans', sans-serif;
     font-size: 1em;
@@ -6,34 +7,49 @@
     margin: 0px;
     }
     body{
-        background-color: #43196a;
-        font-style: 100;
-        color: cornsilk;
+        background-color: #d4b1f55b;
+        color: #43196a;
+        display: block;
         }
     header{
-        margin:2%;
+        margin:2% 2% 2% 2%;
         padding: 0;
-        background-size:  cover;
+        background-image: url(../img/header.jpg);
+        background-size: cover;
         background-repeat: no-repeat;
+        border-radius: 10px 10px 10px 10px ;
+        
         }
     .foto{
         max-width: 180px;
         position: absolute;
+        margin-top: 1%;
+        margin-left: 1%;
         padding: 0,5%;
         z-index: 1;
-        border-radius:20% 0% 20% 0%;
-    }    
+        border-radius:10px;
+        align-items: left;
+    }  
+    
+    .foto img{
+        
+        border-style:ridge;
+        border-color: #d4b1f55b;
+    }
     .bio, .bio h2, .bio ul {
-        text-align: center;
+        text-align: right;
         font-size: 1em;
         list-style: none;
         margin-bottom: 3%;
+        margin-right: 1%;
     }
     .bio h1{
         font-size:1.8em ;
+        margin-right: 2%;
+        text-align: right;
     }
     .steve {
-        margin-top: 4%;
+        
         text-align: right;
         font-style: italic;
         padding: 1%;
@@ -41,20 +57,17 @@
         border-radius: 0px 10px 10px 10px ;
         color: rgb(136, 136, 136);
          }
-    .steve p{
-        color: #43196a;
-    }     
-    header p {
-        
+    
+
+    header p{
         font-size: 1.4em;
         text-align: center;
         font-style: italic;
         margin: 10px;
-        text-indent: 50px;
-    }
+        }
     header a {
         text-decoration: none;
-        color: white;
+        color: #43196a;
     }
     h3, h4 {
         margin: 10px;
@@ -77,12 +90,17 @@
         border: solid;
         border-color: rgb(255, 255, 255);
         border-radius: 10px;
-        background-image: url(../img/fundoG.png);
-        background-size: contain;
+        background-image: url(../img/fundoG.png) ;
+        background-size:contain;
         background-repeat: no-repeat;
         text-shadow: 2px 2px #ffffff
+        
     }
-
+    .ativ{
+        text-align: justify;
+        margin: 15px 5px 5px 5px;
+        background-color: rgba(219, 217, 217, 0.712);
+     }
     article{
         text-align: left;
         font-size: 1.3em;
@@ -120,23 +138,237 @@
 
     footer{
         text-align: right;
-        color: rgb(252, 248, 4);
+        color:#1d0633;
         
     }
     .creditos, a{
         text-decoration: none;
-        color: rgba(219, 219, 215, 0.445);
+        color:#43196a;
     }
     .botao{
-        float: right;
+        position: sticky;
+    }
+    .menu {
         width: 40px;
-        margin-top: -2%;
-        margin-right: 10px;
+        padding: 1px;
+        margin: 1px;
+        float:right;
+        margin-top: 0%;
+        position: -webkit-sticky ;
         position: sticky;
         top: 0;
-        opacity: 1.0;
+        right: 5;
+        opacity: .5;                   
+    }
+    .menu:hover {
+        opacity: 1;
+        right: 8;
+        
+    }
+    #barr{
+        font-size: 1.7em;
+        position: relative;
+    }  
+
+    @media screen and (max-width: 280px){
+        .foto img {
+            max-width: 80px;
+            border-radius: 10px;
+            margin-left: 20%;
+        }
+        .bio, .bio h2, .bio ul {
+            text-align: center;
+            font-size: 0.8em;
+            margin: auto;
+             }
+        .bio h1{
+            font-size: 1em ;
+            text-align: center;
+            margin-left: 35px;
+             }
+        .linha{
+            margin-bottom: 10%;
+        } 
+                   
+       article{
+           font-size: 14pt;
+       }
+       .ativ{
+           text-align: justify;
+           margin: 15px 5px 5px 5px;
+           background-color: rgba(219, 217, 217, 0.712);
+        }
+        .creditos{
+            font-size: .6em;
+        }
+      
+    }   
+    @media screen and (max-width: 360px ){
+        .menu img{
+            max-width: 100%;
+            opacity: 1;
+                       
+        }
+        .menu{
+            max-width: 30px;
+            margin-right: 10px;
+        }
+        .foto {
+            max-width: 100px;
+            position: static;
+            margin:auto;
+        }    
+        .bio, .bio h2, .bio ul {
+            text-align: center;
+            font-size: 0.8em;
+            margin: auto;
+             }
+        .linha{
+             margin-bottom: 25%;
+            }
+         .ativ{
+                font-size: large;
+                text-align: justify;
+                background-color: rgba(219, 217, 217, 0.712);
+             }         
+        .dir {
+             float: right;
+             font-size: 1.5em;
+              }
+
+        #barr{
+                font-size: 1.5em;
+                position: relative;
+            }    
+        .esq{
+            font-size: 0.8em;
+            margin: 10px 5px 5px 5px;
+        }
+       
+         p{
+            font-size: 0.9em
+         }
+         .creditos{
+            font-size: .6em;
+        }  
+    }
+    @media screen and (max-width: 545px ){
+        .foto {
+            max-width: 100px;
+            position: static;
+            margin:auto;
+        }    
+        .bio, .bio h2, .bio ul {
+            text-align: center;
+            font-size: 0.8em;
+            margin: auto;
+             }
+        .bio h1{
+            text-align: center;
+
+             }     
+        .linha{
+             margin-bottom: 30%;
+            }
+         .ativ{
+                font-size: large;
+                text-align: justify;
+                background-color: rgba(219, 217, 217, 0.712);
+             }         
+        .dir {
+             float: right;
+             font-size: 1.58em;
+             margin: 10px;
+        }
+        .esq{
+            font-size: 1.2em;
+            margin: 10px 5px 5px 5px;
+        }
+       
+         p{
+            font-size: 1em;
+         }  
+         .creditos{
+            font-size: .6em;
+        }
+        #barr{
+            font-size: 1.5em;
+             position: relative;
+       }
     }
     
-       
-   
+    @media screen and (max-width: 321px ){    
+        #barr{
+            font-size: 1.6em;
+            position: relative;
+        }   
+    }
+    @media screen and (max-width: 414px ){    
+        #barr{
+            font-size: 1.6em;
+            position: relative;
+        }   
+    }
+    
+    @media screen and (max-width: 375px ){    
+        #barr{
+            font-size: 1.5em;
+             position: relative;
+       }
+    }
+    @media screen and (max-width: 540px ){    
+        #barr{
+            font-size: 1.2em;
+            position: relative;
+            margin-bottom: -3px;
+        }   
+    }
+    @media screen and (max-width: 640px ){
 
+        .bio{
+            font-size: .8rem;
+        }
+        .foto {
+            max-width: 165px;
+        } 
+        .linha{
+            margin-bottom: 25%;
+           }
+           #selo{
+            max-width: 220px;
+            position: relative;
+            float: right;
+            margin-top: 1%;
+           }      
+    }
+
+    @media screen and (max-width: 768px ){
+        .foto {
+            max-width: 145px;
+        }    
+        #selo{
+            max-width: 220px;
+            position: relative;
+            float: right;
+            margin-top: 14%;
+            
+        }
+    }
+    @media screen and (min-width:580) and (max-width: 1024px ){
+        #selo{
+            max-width: 220px;
+            position: relative;
+            float: right;
+            margin-top: 18%;
+
+    }
+    
+}
+    @media screen and (max-width:354px){
+        #barr{
+            font-size: .8rem;
+        }
+    }
+ 
+
+    
