@@ -168,7 +168,15 @@
     #barr{
         font-size: 1.7em;
         position: relative;
+      
+       
     }  
+    form{
+        background-color: rgba(60, 240, 156, 0.082);
+        padding: 2px;
+        margin:2%;
+        
+    }
 
     @media screen and (max-width: 280px){
         .foto img {
@@ -273,7 +281,7 @@
          .ativ{
                 font-size: large;
                 text-align: justify;
-                background-color: rgba(219, 217, 217, 0.712);
+                background-color: rgba(60, 240, 156, 0.082);
              }         
         .dir {
              float: right;
