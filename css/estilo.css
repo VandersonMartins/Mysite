@@ -90,7 +90,7 @@
         border: solid;
         border-color: rgb(255, 255, 255);
         border-radius: 10px;
-        background-image: url(../img/fundoG.png) ;
+  
         background-size:contain;
         background-repeat: no-repeat;
         text-shadow: 2px 2px #ffffff
@@ -177,6 +177,25 @@
         
     }
 
+    .imagem{
+        background-color: rgb(255, 255, 255);
+        color:rgb(2, 2, 34);
+        margin:2%;
+        border: solid;
+        border-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        background-size:contain;
+        text-shadow: 2px 2px #ffffff
+        
+    }
+    .menutela, a{
+        font-size:x-large;
+        text-align: center;
+        margin: 2px;
+        
+    }
+
+
     @media screen and (max-width: 280px){
         .foto img {
             max-width: 80px;
@@ -212,6 +231,7 @@
             font-size: 1.5em;
              position: relative;
        }
+       
       
     }   
     @media screen and (max-width: 360px ){
