@@ -192,7 +192,23 @@
         font-size:x-large;
         text-align: center;
         margin: 2px;
-        
+     }
+    .button {
+        border: none;
+        color: white;
+        padding: 12px 24px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 4px 2px;
+        cursor: pointer;
+        background-color: rgb(12, 12, 82);
+        border-radius: 5px;
+    }
+    .button:hover{
+        color:orange;
+        font-size: 14px;
+        background-color: rgba(12, 12, 82, 0.884);
     }
 
 
