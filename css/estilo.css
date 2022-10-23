@@ -213,6 +213,11 @@
         background-color: rgba(12, 12, 82, 0.884);
     }
 
+    #img_peq{
+        z-index: -1;
+        border-radius: 50%;
+        margin: 0;
+    }
 
     @media screen and (max-width: 280px){
         .foto img {
@@ -388,7 +393,8 @@
             position: relative;
             float: right;
             margin-top: 1%;
-           }      
+           } 
+           
     }
 
     @media screen and (max-width: 768px ){
