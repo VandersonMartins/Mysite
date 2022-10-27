@@ -1,2 +1,2 @@
 # Mysite
- Curriculo externdido
+ Curriculo extendido
